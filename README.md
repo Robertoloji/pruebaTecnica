@@ -4,21 +4,31 @@ Este proyecto es una aplicación Laravel que integra el gateway de pago de Strip
 
 **Requisitos**
 
-- PHP >= 8.0
-- Composer
-- MySQL
-- XAMPP o un servidor web compatible
+- **PHP 8**
+- **Laravel 10**
+- **MariaDB / MySQL**
+- **Stripe API**
+- **Blade** (motor de plantillas)
+- **Composer**
+
+  
+## 🎯 Funcionalidad principal
+
+- Formulario de pago con validación de datos.
+- Conexión segura con la API de Stripe.
+- Creación de tokens de tarjeta de crédito.
+- Confirmación de pago en tiempo real.
+- Gestión de errores y respuestas del servidor.
 
 **Instalación**
 
-1. **Clonar el Repositorio**
+1. ## 📦 Instalación y uso local
 
-   Si aún no has clonado el repositorio, hazlo usando el siguiente comando:
+   1. Clona el repositorio:
 
-   git clone <URL del repositorio>
-   cd <nombre-del-repositorio>
+   git clone https://github.com/Robertoloji/pruebaTecnica.git
+   cd pruebaTecnica
  
-
 2. **Instalar Dependencias**
 
    Asegúrate de estar en el directorio del proyecto y ejecuta:
